@@ -27,7 +27,7 @@ var server = http.createServer(function(req, res){
 			res.end(JSON.stringify({name: 'Rick and Morty'}))
 			break;
 		default:
-		staticRoot(path.join(__dirname, 'sample'), req, res) 
+		staticRoot(path.join(__dirname, 'node-server/sample'), req, res)
 	}
 })
 server.listen(8080)
