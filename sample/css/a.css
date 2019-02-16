@@ -1,0 +1,18 @@
+html, body, a, div{
+		font-size: 0;
+		height: 100%;
+		padding: 0;
+		margin: 0;
+	}
+	.morty{
+		width: 50%;
+		background: url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-282672.jpg) center center no-repeat;
+		background-size: cover;
+		display: inline-block;
+	}
+	.rick{
+		width: 50%;
+		background: url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-282671.jpg) center center no-repeat;
+		background-size: cover;
+		display: inline-block;
+	}
